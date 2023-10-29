@@ -1,0 +1,27 @@
+[config]
+#default = "zh-CN"
+default = "en-US"
+
+[zh-CN]
+request-success = "请求成功"
+request-error = "请求异常"
+authentication-failed = "认证失败"
+token-error = "token 异常"
+not-login = "用户未登录"
+input-parsing-failed = "输入解析失败"
+incorrect-username-or-password = "用户名或密码错误"
+redis-error = "redis 异常"
+cached-user-parsing-failed = "缓存用户解析失败"
+verification-code-error = "验证码错误"
+
+[en-US]
+request-success = "success"
+request-error = "error"
+authentication-failed = "authentication failed"
+token-error = "token error"
+not-login = "not login"
+input-parsing-failed = "input parsing failed"
+incorrect-username-or-password = "incorrect username or password"
+redis-error = "redis error"
+cached-user-parsing-failed = "cached user parsing failed"
+verification-code-error = "verification code error"

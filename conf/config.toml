@@ -1,0 +1,20 @@
+
+[conf]
+  salt = "DqpIOh6JbRYfxMdLyBVWMnD5"
+
+[http]
+  domain = "http://127.0.0.1:8090/"
+  port = 8090
+  session-live-max-hour = 24
+  session-live-second = 14400
+  trust-proxy-ip-cidr = ["127.0.0.1", "172.28.0.1/24"]
+  version = "1.3.0"
+
+[mysql]
+  dataSource = "root:L.D.Aoyiqi253@tcp(arch.wsl:3306)/api?charset=utf8"
+  max-idle-connections = 20
+  max-open-connections = 500
+
+[redis]
+  addr = "arch.wsl:6379"
+  password = ""

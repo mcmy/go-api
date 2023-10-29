@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="ApiContext">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/common/override.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CombinationConfig">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/configStruct.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ConfInterface">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/configStruct.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DBConfigInterface">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/configStruct.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DefaultImpl">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/i18n/interfaces.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="HttpConfigInterface">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/configStruct.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LangStruct">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/i18n/i18nStruct.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Query">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/query/gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="QueryTx">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/query/gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RedisConfigInterface">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/config/configStruct.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/model/user.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserAuth">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/model/user_auth.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Writer">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/db.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="loginStruct">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/server/handles/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="queryCtx">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/query/gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="user">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/query/user.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="userAuth">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/query/user_auth.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="userAuthDo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/query/user_auth.gen.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="userDo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/drivers/db/query/user.gen.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/config/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698380590902" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/config/configStruct.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698423104577" />
+              <option name="schema">
+                <list>
+                  <option value="HttpConfigInterface" />
+                  <option value="DBConfigInterface" />
+                  <option value="RedisConfigInterface" />
+                  <option value="ConfInterface" />
+                  <option value="CombinationConfig" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/db/db.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698493784002" />
+              <option name="schema">
+                <list>
+                  <option value="Writer" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/db/i_autogen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698478727097" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/db/model/user.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698334593161" />
+              <option name="schema">
+                <list>
+                  <option value="User" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/db/model/user_auth.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698334593161" />
+              <option name="schema">
+                <list>
+                  <option value="UserAuth" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/db/query/gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698478734338" />
+              <option name="schema">
+                <list>
+                  <option value="Query" />
+                  <option value="queryCtx" />
+                  <option value="QueryTx" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/db/query/user.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698478734337" />
+              <option name="schema">
+                <list>
+                  <option value="user" />
+                  <option value="userDo" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/db/query/user_auth.gen.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698478734336" />
+              <option name="schema">
+                <list>
+                  <option value="userAuth" />
+                  <option value="userAuthDo" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/db/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698479282406" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/db/util.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698291816804" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/redis/redis.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698489774546" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/redis/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698336580640" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/drivers/redis/util.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698424765827" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/dto/req/req.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698336351726" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/dto/resp/resp.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698501439948" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/i18n/i18n.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698411565318" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/i18n/i18nStruct.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698477645816" />
+              <option name="schema">
+                <list>
+                  <option value="LangStruct" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/i18n/interfaces.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698411392895" />
+              <option name="schema">
+                <list>
+                  <option value="DefaultImpl" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698498365273" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/public/public.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1672107515288" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/common/http.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698493784012" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/common/override.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698501453638" />
+              <option name="schema">
+                <list>
+                  <option value="ApiContext" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/common/token.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698493784011" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/config.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698493784007" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/handles/captcha.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698499701104" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/handles/index.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698492902066" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/handles/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698501854528" />
+              <option name="schema">
+                <list>
+                  <option value="loginStruct" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/middlewares/auth.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698492991783" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/middlewares/basic.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698493784004" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/middlewares/cc.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698493784006" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/server/router.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698498579966" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/utils/conversion.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698137495472" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/utils/utils.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1698411618873" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="api_context" value="ApiContext" />
+        <entry key="combination_config" value="CombinationConfig" />
+        <entry key="conf_interface" value="ConfInterface" />
+        <entry key="db_config_interface" value="DBConfigInterface" />
+        <entry key="default_impl" value="DefaultImpl" />
+        <entry key="http_config_interface" value="HttpConfigInterface" />
+        <entry key="lang_struct" value="LangStruct" />
+        <entry key="login_struct" value="loginStruct" />
+        <entry key="query" value="Query" />
+        <entry key="query_ctx" value="queryCtx" />
+        <entry key="query_tx" value="QueryTx" />
+        <entry key="redis_config_interface" value="RedisConfigInterface" />
+        <entry key="user" value="user" />
+        <entry key="user_auth" value="userAuth" />
+        <entry key="user_auth_do" value="userAuthDo" />
+        <entry key="user_do" value="userDo" />
+        <entry key="writer" value="Writer" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1698578664962" />
+  </component>
+</project>

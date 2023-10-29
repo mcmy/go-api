@@ -1,0 +1,34 @@
+### index
+GET http://127.0.0.1:8090/
+Accept-Language: en-US
+
+### Captcha
+GET http://127.0.0.1:8090/captcha/image
+Authorization: Bearer {{token}}
+Accept-Language: zh-CN
+X-Forwarded-For: 135.63.2.4
+
+### getToken
+GET http://127.0.0.1:8090/api/getToken
+Accept-Language: zh-CN
+X-Forwarded-For: 135.63.2.4
+
+> {%
+client.global.set("token",response.body["data"]["token"])
+%}
+
+### login
+POST http://127.0.0.1:8090/api/login?a=3&c=4
+Authorization: Bearer {{token}}
+Content-Type: application/json
+Accept-Language: zh-CN
+
+{
+  "username": "Aoyiqi",
+  "password": "Aoyiqi253"
+}
+
+### userinfo
+GET http://127.0.0.1:8090/api/user/userinfo
+Authorization: Bearer {{token}}
+Accept-Language: zh-CN
